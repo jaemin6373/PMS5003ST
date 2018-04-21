@@ -152,7 +152,7 @@ int main (void)
 					//FILE * FP;
 					//FP=fopen(OUTDIR""OUTFILE,"wt");
 					printf("Content-type: text/html\n\n");
-					printf("<meta charset=\"utf-8\">\n\n");
+					printf("<meta charset=\"utf-8\" http-equiv=\"refresh\" content=\"5;\">\n\n");
 					printf("<font size=\"6\">\n");
 					printf("PM1.0지수:");
 					if (transEndian(dataPtr->HOME_PM010) < 50)
